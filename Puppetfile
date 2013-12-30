@@ -55,3 +55,28 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "osx",               "2.1.0"
+
+github "wget",              "1.0.0"
+github "firefox",           "1.1.5"
+github "chrome",            "1.1.2"
+
+github "vagrant",           "3.0.0"
+github "virtualbox",        "1.0.9"
+github "vmware_fusion",     "1.1.0"
+
+github "iterm2",            "1.0.4"
+
+github "pgadmin3",          "1.0.0"
+github "sequel_pro",        "1.0.1"
+
+github "dropbox",           "1.1.2"
+
+# editor
+github "sublime_text_2",    "1.1.2"
+github "macvim",            "1.0.0"
+github "intellij",          "1.4.0"
+github "sourcetree",        "1.0.0"
+github "java",              "1.1.2"
+github "python",            "1.3.0"
+#github "php",               "1.1.4"
