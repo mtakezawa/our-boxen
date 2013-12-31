@@ -1,4 +1,4 @@
-# This file manages Puppet module dependencies.
+#vlvlcc This file manages Puppet module dependencies.
 #
 # It works a lot like Bundler. We provide some core modules by
 # default. This ensures at least the ability to construct a basic
@@ -57,26 +57,51 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 github "osx",               "2.1.0"
 
+# browser
 github "wget",              "1.0.0"
-github "firefox",           "1.1.5"
+github "firefox",           "1.1.7"
 github "chrome",            "1.1.2"
 
+# virtual machine
 github "vagrant",           "3.0.0"
-github "virtualbox",        "1.0.9"
+github "virtualbox",        "1.0.10"
 github "vmware_fusion",     "1.1.0"
 
+# terminal
 github "iterm2",            "1.0.4"
 
+# lib
+github "imagemagick",       "1.2.1"
+github "libtool",           "1.0.0"
+github "pcre",              "1.0.0"
+github "libpng",            "1.0.0"
+github "autoconf",            "1.0.0"
+
+# database
+github "mysql",             "1.2.0"
+github "redis",             "2.1.0"
 github "pgadmin3",          "1.0.0"
 github "sequel_pro",        "1.0.1"
-
-github "dropbox",           "1.1.2"
 
 # editor
 github "sublime_text_2",    "1.1.2"
 github "macvim",            "1.0.0"
 github "intellij",          "1.4.0"
+
+# vcs
 github "sourcetree",        "1.0.0"
+
+# language
 github "java",              "1.1.2"
 github "python",            "1.3.0"
-#github "php",               "1.1.4"
+github "php",               "1.1.4"
+
+# game
+github "minecraft",         "1.0.2"
+
+# media
+github "vlc",               "1.0.5"
+
+# tool
+github "dropbox",           "1.1.2"
+github "skype",             "1.0.8"

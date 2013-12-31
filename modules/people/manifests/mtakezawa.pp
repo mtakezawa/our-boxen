@@ -29,6 +29,16 @@ class people::mtakezawa {
     include java
     include python
     include macvim
+    include minecraft
+    include vlc
+    include skype
+    include imagemagick
+    include libtool
+    include pcre
+    include libpng
+    include redis
+    include mysql
+    #include php::5_4
 
     ## via homebrew
     #
@@ -54,6 +64,6 @@ class people::mtakezawa {
     
     # vmaware fusion
     class { 'vmware_fusion':
-        version => '5.0.3-1040386'
+        version => '5.0.4-1435862'
     }
 }
