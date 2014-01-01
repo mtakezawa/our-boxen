@@ -22,7 +22,7 @@ class people::mtakezawa {
     include vagrant
     include iterm2::stable
     include sublime_text_2
-    include firefox
+    #include firefox
     include chrome
     include dropbox
     include sourcetree
