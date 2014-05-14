@@ -24,7 +24,7 @@ class people::mtakezawa {
     include sublime_text_2
     #include firefox
     include chrome
-    include dropbox
+    #include dropbox
     include sourcetree
     include java
     include python
@@ -52,14 +52,15 @@ class people::mtakezawa {
             'tmux',                       # terminal session
             'tig',                        # git cui client
             'reattach-to-user-namespace', # use tmux to clipbord
-            'packer'                      # vagrant box maker
+            'packer',                     # vagrant box maker
+            'elasticsearch'               # elasticksearch
         ]:
     }
 
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '13.0.2'
+        version => '13.1.2'
     }
     
     # vmaware fusion
