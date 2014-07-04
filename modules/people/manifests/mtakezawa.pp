@@ -56,6 +56,17 @@ class people::mtakezawa {
             'elasticsearch'               # elasticksearch
         ]:
     }
+    homebrew::tap { 'sanemat/font': }
+    # TODO
+    # これだとエラーになる。 20140704 時点
+    # brew reinstall --powerline --vim-powerline ricty
+    # でインストール出来る。
+    # @see http://qiita.com/znz/items/e94b7377f201e7b1683e
+    # @see https://github.com/sangotaro/my-boxen/blob/d462764e9eee85bbe4641d1accfc4fd5f86076eb/modules/people/manifests/sangotaro.pp
+    #
+    # /opt/boxen/homebrew/Cellar/ricty/3.2.3/share/fonts 
+    # にビルドされた ricty をインストールする。
+    package { 'ricty': }
 
     # intellij
     class { 'intellij':
@@ -64,7 +75,7 @@ class people::mtakezawa {
     }
     
     # vmaware fusion
-    class { 'vmware_fusion':
-        version => '5.0.4-1435862'
-    }
+    #class { 'vmware_fusion':
+    #    version => '5.0.4-1435862'
+    #}
 }
