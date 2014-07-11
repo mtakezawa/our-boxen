@@ -16,6 +16,23 @@ class people::mtakezawa {
     }
     include osx::finder::show_all_files
 
+    # zsh
+    package {
+      'zsh':
+        install_options => [
+          '--disable-etcdir'
+        ]
+    }
+    file_line { 'add zsh to /etc/shells':
+      path    => '/etc/shells',
+      line    => "${boxen::config::homebrewdir}/bin/zsh",
+      require => Package['zsh'],
+      before  => Osx_chsh[$::luser];
+    }
+    osx_chsh { $::luser:
+      shell   => "${boxen::config::homebrewdir}/bin/zsh";
+    }
+
     include pgadmin3
     include sequel_pro
     include virtualbox
