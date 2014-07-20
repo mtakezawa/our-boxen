@@ -83,7 +83,7 @@ class people::mtakezawa {
     #
     # /opt/boxen/homebrew/Cellar/ricty/3.2.3/share/fonts 
     # にビルドされた ricty をインストールする。
-    package { 'ricty': }
+    #package { 'ricty': }
 
     # intellij
     class { 'intellij':
