@@ -71,7 +71,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-iterm2
   specs:
-    iterm2 (1.0.4)
+    iterm2 (1.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-java
@@ -176,7 +176,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.8)
+    skype (1.0.9)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -201,7 +201,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.10)
+    virtualbox (1.0.13)
 
 GITHUBTARBALL
   remote: boxen/puppet-vlc
@@ -254,7 +254,7 @@ DEPENDENCIES
   imagemagick (= 1.2.1)
   inifile (= 1.0.3)
   intellij (= 1.4.0)
-  iterm2 (= 1.0.4)
+  iterm2 (= 1.1.2)
   java (= 1.1.2)
   libpng (= 1.0.0)
   libtool (= 1.0.0)
@@ -276,13 +276,13 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.0.4)
   sequel_pro (= 1.0.1)
-  skype (= 1.0.8)
+  skype (= 1.0.9)
   sourcetree (= 1.0.0)
   stdlib (= 4.2.1)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
   vagrant (= 3.0.0)
-  virtualbox (= 1.0.10)
+  virtualbox (= 1.0.13)
   vlc (= 1.0.5)
   vmware_fusion (= 1.1.0)
   wget (= 1.0.0)

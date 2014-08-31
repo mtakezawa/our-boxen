@@ -68,11 +68,11 @@ github "chrome",            "1.1.2"
 
 # virtual machine
 github "vagrant",           "3.0.0"
-github "virtualbox",        "1.0.10"
+github "virtualbox",        "1.0.13"
 github "vmware_fusion",     "1.1.0"
 
 # terminal
-github "iterm2",            "1.0.4"
+github "iterm2",            "1.1.2"
 
 # lib
 github "imagemagick",       "1.2.1"
@@ -108,4 +108,4 @@ github "vlc",               "1.0.5"
 
 # tool
 github "dropbox",           "1.1.2"
-github "skype",             "1.0.8"
+github "skype",             "1.0.9"
