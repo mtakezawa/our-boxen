@@ -88,7 +88,7 @@ class people::mtakezawa {
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '13.1.4'
+        version => '13.1.4b'
     }
     
     # vmaware fusion
