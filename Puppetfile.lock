@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.6.1)
+    boxen (3.6.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -36,12 +36,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.0.101)
+    gcc (2.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.4.0)
+    git (2.5.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -51,7 +51,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.9.3)
+    homebrew (1.9.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -111,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.7.0)
+    nodejs (3.8.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -166,7 +166,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.0.4)
+    ruby (8.1.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -226,7 +226,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.0.3)
+    inifile (1.1.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
@@ -236,21 +236,26 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
-    module-data (0.0.3)
+    module_data (0.0.3)
 
 DEPENDENCIES
+<<<<<<< HEAD
   autoconf (= 1.0.0)
   boxen (= 3.6.1)
   chrome (= 1.1.2)
+=======
+  boxen (= 3.6.2)
+>>>>>>> 77b048aa324874d1ab8f1cb98f8d5bc71f2710cc
   dnsmasq (= 1.0.1)
   dropbox (= 1.1.2)
   firefox (= 1.1.7)
   foreman (= 1.2.0)
-  gcc (= 2.0.101)
-  git (= 2.4.0)
+  gcc (= 2.1.1)
+  git (= 2.5.0)
   go (= 1.1.0)
-  homebrew (= 1.9.3)
+  homebrew (= 1.9.4)
   hub (= 1.3.0)
+<<<<<<< HEAD
   imagemagick (= 1.2.1)
   inifile (= 1.0.3)
   intellij (= 1.4.0)
@@ -262,8 +267,12 @@ DEPENDENCIES
   minecraft (= 1.0.2)
   module-data (= 0.0.3)
   mysql (= 1.2.0)
+=======
+  inifile (= 1.1.1)
+  module_data (= 0.0.3)
+>>>>>>> 77b048aa324874d1ab8f1cb98f8d5bc71f2710cc
   nginx (= 1.4.3)
-  nodejs (= 3.7.0)
+  nodejs (= 3.8.1)
   openssl (= 1.0.0)
   osx (= 2.1.0)
   pcre (= 1.0.0)
@@ -274,10 +283,14 @@ DEPENDENCIES
   python (= 1.3.0)
   redis (= 2.1.0)
   repository (= 2.3.0)
+<<<<<<< HEAD
   ruby (= 8.0.4)
   sequel_pro (= 1.0.1)
   skype (= 1.0.9)
   sourcetree (= 1.0.0)
+=======
+  ruby (= 8.1.2)
+>>>>>>> 77b048aa324874d1ab8f1cb98f8d5bc71f2710cc
   stdlib (= 4.2.1)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
