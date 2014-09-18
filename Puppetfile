@@ -40,25 +40,29 @@ github "module_data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 
 github "dnsmasq",     "1.0.1"
 github "foreman",     "1.2.0"
+#github "gcc",         "2.2.0"
 github "gcc",         "2.1.1"
+#github "git",         "2.6.0"
 github "git",         "2.5.0"
+#github "go",          "2.1.0"
 github "go",          "1.1.0"
 github "homebrew",    "1.9.4"
 github "hub",         "1.3.0"
 github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
-github "nodejs",      "3.8.1"
+github "nodejs",      "3.8.2"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.2"
+github "ruby",        "8.1.4"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+#github "osx",               "2.7.1"
 github "osx",               "2.1.0"
 
 # browser
@@ -79,7 +83,7 @@ github "imagemagick",       "1.2.1"
 github "libtool",           "1.0.0"
 github "pcre",              "1.0.0"
 github "libpng",            "1.0.0"
-github "autoconf",            "1.0.0"
+github "autoconf",          "1.0.0"
 
 # database
 github "mysql",             "1.2.0"
@@ -96,7 +100,7 @@ github "intellij",          "1.4.0"
 github "sourcetree",        "1.0.0"
 
 # language
-github "java",              "1.1.2"
+github "java",              "1.7.0"
 github "python",            "1.3.0"
 github "php",               "1.1.4"
 
