@@ -95,6 +95,11 @@ class people::mtakezawa {
             node_version => 'v0.10'
     } 
 
+    nodejs::module {
+        'less':
+            node_version => 'v0.10'
+    } 
+
     # intellij
     class { 'intellij':
         edition => 'ultimate',
