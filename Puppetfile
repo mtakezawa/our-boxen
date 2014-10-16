@@ -113,3 +113,4 @@ github "vlc",               "1.0.5"
 # tool
 github "dropbox",           "1.1.2"
 github "skype",             "1.0.9"
+github "hipchat",           "1.1.3"

@@ -56,6 +56,7 @@ class people::mtakezawa {
     include redis
     include mysql
     #include php::5_4
+    include hipchat
 
     ## via homebrew
     #
