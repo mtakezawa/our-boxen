@@ -81,12 +81,6 @@ class people::mtakezawa {
         provider => pkgdmg;
     }
 
-    # atok
-    package { 'atok':
-        source  => 'http://www.takezawa.biz/boxen/at27try2.dmg',
-        provider => appdmg;
-    }
-
     homebrew::tap { 'sanemat/font': }
     # TODO
     # これだとエラーになる。 20140704 時点
