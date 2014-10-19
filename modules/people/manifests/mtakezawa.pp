@@ -74,6 +74,13 @@ class people::mtakezawa {
             'elasticsearch'               # elasticksearch
         ]:
     }
+
+    # http://support.apple.com/kb/DL1572
+    package { 'JavaOsx':
+        source  => 'http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg',
+        provider => pkgdmg;
+    }
+
     homebrew::tap { 'sanemat/font': }
     # TODO
     # これだとエラーになる。 20140704 時点
