@@ -98,8 +98,8 @@ github "intellij",          "1.4.0"
 github "sourcetree",        "1.0.0"
 
 # language
-github "java",              "1.7.0"
-github "python",            "1.3.0"
+github "java",              "1.7.1"
+github "python",            "2.0.0"
 github "php",               "1.1.4"
 
 # game
