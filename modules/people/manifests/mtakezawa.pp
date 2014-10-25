@@ -37,7 +37,6 @@ class people::mtakezawa {
     include sequel_pro
     include virtualbox
     include vagrant
-    include iterm2::stable
     include dterm
     include sublime_text_2
     #include firefox
@@ -60,6 +59,10 @@ class people::mtakezawa {
     include hipchat
     include docker
     include fig
+
+    include iterm2::stable
+    include iterm2::colors::solarized_light
+    include iterm2::colors::solarized_dark
 
     ## via homebrew
     #

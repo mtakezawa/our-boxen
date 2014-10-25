@@ -76,7 +76,7 @@ github "docker",            "0.6.0"
 github "fig",               "1.0.0"
 
 # terminal
-github "iterm2",            "1.1.2"
+github "iterm2",            "1.2.2"
 github "dterm",             "1.0.2"
 
 # lib
