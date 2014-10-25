@@ -29,6 +29,11 @@ GITHUBTARBALL
     dropbox (1.1.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-dterm
+  specs:
+    dterm (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-fig
   specs:
     fig (1.0.0)
@@ -260,6 +265,7 @@ DEPENDENCIES
   dnsmasq (= 2.0.0)
   docker (= 0.6.0)
   dropbox (= 1.1.2)
+  dterm (= 1.0.2)
   fig (= 1.0.0)
   firefox (= 1.1.7)
   foreman (= 1.2.0)

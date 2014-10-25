@@ -77,6 +77,7 @@ github "fig",               "1.0.0"
 
 # terminal
 github "iterm2",            "1.1.2"
+github "dterm",             "1.0.2"
 
 # lib
 github "imagemagick",       "1.2.1"

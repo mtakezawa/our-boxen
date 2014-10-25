@@ -38,6 +38,7 @@ class people::mtakezawa {
     include virtualbox
     include vagrant
     include iterm2::stable
+    include dterm
     include sublime_text_2
     #include firefox
     include chrome
