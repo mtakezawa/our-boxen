@@ -59,6 +59,7 @@ class people::mtakezawa {
     include hipchat
     include docker
     include fig
+    include xquartz
 
     include iterm2::stable
     include iterm2::colors::solarized_light
