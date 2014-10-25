@@ -58,6 +58,7 @@ class people::mtakezawa {
     #include php::5_4
     include hipchat
     include docker
+    include fig
 
     ## via homebrew
     #
