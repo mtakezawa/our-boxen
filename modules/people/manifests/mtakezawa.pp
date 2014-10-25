@@ -87,6 +87,11 @@ class people::mtakezawa {
         provider => pkgdmg;
     }
 
+    package { 'AppCleaner':
+        source   => 'http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip',
+        provider => 'compressed_app'
+    }
+
     homebrew::tap { 'sanemat/font': }
     # TODO
     # これだとエラーになる。 20140704 時点
