@@ -72,6 +72,7 @@ github "chrome",            "1.1.2"
 github "vagrant",           "3.0.0"
 github "virtualbox",        "1.0.13"
 github "vmware_fusion",     "1.1.0"
+github "docker",            "0.6.0"
 
 # terminal
 github "iterm2",            "1.1.2"

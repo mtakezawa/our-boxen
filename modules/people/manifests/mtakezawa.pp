@@ -57,6 +57,7 @@ class people::mtakezawa {
     include mysql
     #include php::5_4
     include hipchat
+    include docker
 
     ## via homebrew
     #
