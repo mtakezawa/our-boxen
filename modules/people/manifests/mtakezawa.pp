@@ -60,6 +60,7 @@ class people::mtakezawa {
     include docker
     include fig
     include xquartz
+    include onepassword
 
     include iterm2::stable
     include iterm2::colors::solarized_light
