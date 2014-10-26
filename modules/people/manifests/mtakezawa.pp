@@ -78,6 +78,11 @@ class people::mtakezawa {
             'tig',                        # git cui client
             'reattach-to-user-namespace', # use tmux to clipbord
             'packer',                     # vagrant box maker
+            'freetype',                   # need for wine
+            'jpeg',                       # need for wine
+            'libusb',                     # need for wine
+            'libusb-compat',              # need for wine
+            #'wine',                       # wine
             'elasticsearch'               # elasticksearch
         ]:
     }
