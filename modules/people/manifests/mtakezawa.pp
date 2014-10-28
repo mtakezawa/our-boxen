@@ -61,6 +61,7 @@ class people::mtakezawa {
     include fig
     include xquartz
     include onepassword
+    include nginx
 
     include iterm2::stable
     include iterm2::colors::solarized_light
@@ -112,24 +113,24 @@ class people::mtakezawa {
     nodejs::module {
         'titanium':
             node_version => 'v0.10'
-    } 
+    }
 
     nodejs::module {
         'alloy':
             node_version => 'v0.10'
-    } 
+    }
 
     nodejs::module {
         'less':
             node_version => 'v0.10'
-    } 
+    }
 
     # intellij
     class { 'intellij':
         edition => 'ultimate',
         version => '13.1.5'
     }
-    
+
     # vmaware fusion
     #class { 'vmware_fusion':
     #    version => '5.0.4-1435862'
