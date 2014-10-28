@@ -55,7 +55,7 @@ class people::mtakezawa {
     include libpng
     include redis
     include mysql
-    include php::5_4
+    #include php::5_4
     include hipchat
     include docker
     include fig
