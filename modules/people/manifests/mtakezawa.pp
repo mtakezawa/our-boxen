@@ -55,13 +55,20 @@ class people::mtakezawa {
     include libpng
     include redis
     include mysql
-    #include php::5_4
+    include php::5_4_18
+    include php::fpm::5_4_18
+    include php::5_3_28
+    include php::fpm::5_3_28
+    class { 'php::global':
+      version => '5.4.18'
+    }
     include hipchat
     include docker
     include fig
     include xquartz
     include onepassword
     include nginx
+
 
     include iterm2::stable
     include iterm2::colors::solarized_light
