@@ -68,6 +68,7 @@ class people::mtakezawa {
     include xquartz
     include onepassword
     include nginx
+    include appcleaner
 
 
     include iterm2::stable
@@ -98,11 +99,6 @@ class people::mtakezawa {
     package { 'JavaOsx':
         source  => 'http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg',
         provider => pkgdmg;
-    }
-
-    package { 'AppCleaner':
-        source   => 'http://www.freemacsoft.net/downloads/AppCleaner_2.2.3.zip',
-        provider => 'compressed_app'
     }
 
     homebrew::tap { 'sanemat/font': }

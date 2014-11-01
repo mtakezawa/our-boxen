@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-appcleaner
+  specs:
+    appcleaner (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -264,6 +269,7 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  appcleaner (= 1.0.0)
   autoconf (= 1.0.0)
   boxen (= 3.7.0)
   chrome (= 1.1.2)
