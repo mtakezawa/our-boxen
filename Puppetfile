@@ -71,7 +71,7 @@ github "chrome",            "1.1.2"
 # virtual machine
 github "vagrant",           "3.0.0"
 github "virtualbox",        "1.0.13"
-github "vmware_fusion",     "1.1.0"
+github "vmware_fusion",     "1.2.0"
 github "docker",            "0.6.0"
 github "fig",               "1.0.0"
 

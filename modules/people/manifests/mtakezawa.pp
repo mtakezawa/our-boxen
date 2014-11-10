@@ -55,13 +55,13 @@ class people::mtakezawa {
     include libpng
     include redis
     include mysql
-    include php::5_4_18
-    include php::fpm::5_4_18
-    include php::5_3_28
-    include php::fpm::5_3_28
-    class { 'php::global':
-      version => '5.4.18'
-    }
+    #include php::5_4_18
+    #include php::fpm::5_4_18
+    #include php::5_3_28
+    #include php::fpm::5_3_28
+    #class { 'php::global':
+    #  version => '5.4.18'
+    #}
     include hipchat
     include docker
     include fig
@@ -134,8 +134,9 @@ class people::mtakezawa {
         version => '14'
     }
 
+    include vmware_fusion
     # vmaware fusion
     #class { 'vmware_fusion':
-    #    version => '5.0.4-1435862'
+    #    version => '7.0.1-2235595'
     #}
 }
