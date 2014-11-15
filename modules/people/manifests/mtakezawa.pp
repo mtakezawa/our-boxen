@@ -131,7 +131,7 @@ class people::mtakezawa {
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '14'
+        version => '14.0.1'
     }
 
     include vmware_fusion
