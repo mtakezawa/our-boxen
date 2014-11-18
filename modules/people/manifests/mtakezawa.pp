@@ -101,6 +101,11 @@ class people::mtakezawa {
         provider => pkgdmg;
     }
 
+    package { 'kengingon1.1.2':
+        source => 'http://www.nanayojapan.co.jp/file/38c5e777-b2ef-4434-8091-6290cb41fc16.dmg',
+        provider => pkgdmg;
+    }
+
     homebrew::tap { 'sanemat/font': }
     # TODO
     # これだとエラーになる。 20140704 時点
