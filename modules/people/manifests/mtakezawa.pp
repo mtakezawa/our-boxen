@@ -98,12 +98,17 @@ class people::mtakezawa {
     # http://support.apple.com/kb/DL1572
     package { 'JavaOsx':
         source  => 'http://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg',
-        provider => pkgdmg;
+        provider => pkgdmg
+    }
+
+    package { 'ShareMouse':
+        source => 'http://www.keyboard-and-mouse-sharing.com/ShareMouseSetup.dmg',
+        provider => appdmg
     }
 
     package { 'kengingon1.1.2':
         source => 'http://www.nanayojapan.co.jp/file/38c5e777-b2ef-4434-8091-6290cb41fc16.dmg',
-        provider => pkgdmg;
+        provider => pkgdmg
     }
 
     homebrew::tap { 'sanemat/font': }
@@ -136,7 +141,7 @@ class people::mtakezawa {
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '14.0.1'
+        version => '14.0.2'
     }
 
     include vmware_fusion
