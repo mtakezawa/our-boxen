@@ -128,19 +128,14 @@ class people::mtakezawa {
     # にビルドされた ricty をインストールする。
     #package { 'ricty': }
 
-    nodejs::module {
-        'titanium':
-            node_version => 'v0.10'
+    nodejs::module { 'titanium':
+        node_version => 'v0.10'
     }
-
-    nodejs::module {
-        'alloy':
-            node_version => 'v0.10'
+    nodejs::module { 'alloy':
+        node_version => 'v0.10'
     }
-
-    nodejs::module {
-        'less':
-            node_version => 'v0.10'
+    nodejs::module { 'less':
+        node_version => 'v0.10'
     }
 
     # intellij
