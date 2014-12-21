@@ -110,7 +110,7 @@ class people::mtakezawa {
         provider => pkgdmg
     }
 
-    package { 'boxen':
+    package { 'ownCloud1.7.1':
         source => 'https://download.owncloud.com/desktop/stable/ownCloud-1.7.1.1655.pkg',
         provider => pkgdmg
     }
