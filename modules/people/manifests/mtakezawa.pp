@@ -111,6 +111,11 @@ class people::mtakezawa {
         provider => pkgdmg
     }
 
+    package { 'boxen':
+        source => 'https://download.owncloud.com/desktop/stable/ownCloud-1.7.1.1655.pkg',
+        provider => pkgdmg
+    }
+
     homebrew::tap { 'sanemat/font': }
     # TODO
     # これだとエラーになる。 20140704 時点
