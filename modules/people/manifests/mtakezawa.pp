@@ -39,7 +39,10 @@ class people::mtakezawa {
     include vagrant
     include dterm
     include sublime_text_2
-    include firefox
+    class { 'firefox':
+      locale=> 'ja-JP-mac',
+      version => '34.0.5'
+    }
     include chrome
     include sourcetree
     include java
@@ -115,17 +118,10 @@ class people::mtakezawa {
         provider => pkgdmg
     }
 
-    homebrew::tap { 'sanemat/font': }
-    # TODO
-    # これだとエラーになる。 20140704 時点
-    # brew reinstall --powerline --vim-powerline ricty
-    # でインストール出来る。
-    # @see http://qiita.com/znz/items/e94b7377f201e7b1683e
-    # @see https://github.com/sangotaro/my-boxen/blob/d462764e9eee85bbe4641d1accfc4fd5f86076eb/modules/people/manifests/sangotaro.pp
-    #
-    # /opt/boxen/homebrew/Cellar/ricty/3.2.3/share/fonts 
-    # にビルドされた ricty をインストールする。
-    #package { 'ricty': }
+    #package { 'Hosts1.3':
+    #    source => 'https://github.com/downloads/specialunderwear/Hosts.prefpane/Hosts-1.3.pkg',
+    #    provider => pkgdmg
+    #}
 
     nodejs::module { 'titanium':
         node_version => 'v0.10'
@@ -143,9 +139,9 @@ class people::mtakezawa {
         version => '14.0.2'
     }
 
-    include vmware_fusion
+    #include vmware_fusion
     # vmaware fusion
-    #class { 'vmware_fusion':
-    #    version => '7.0.1-2235595'
-    #}
+    class { 'vmware_fusion':
+        version => '7.0.0-2103067'
+    }
 }

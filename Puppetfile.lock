@@ -141,7 +141,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-onepassword
   specs:
-    onepassword (1.1.4)
+    onepassword (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -206,7 +206,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.9)
+    skype (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -299,7 +299,7 @@ DEPENDENCIES
   mysql (= 1.2.0)
   nginx (= 1.4.4)
   nodejs (= 3.8.2)
-  onepassword (= 1.1.4)
+  onepassword (= 1.1.5)
   openssl (= 1.0.0)
   osx (= 2.1.0)
   pcre (= 1.0.0)
@@ -312,7 +312,7 @@ DEPENDENCIES
   repository (= 2.3.0)
   ruby (= 8.1.7)
   sequel_pro (= 1.0.1)
-  skype (= 1.0.9)
+  skype (= 1.1.0)
   sourcetree (= 1.0.0)
   stdlib (= 4.2.1)
   sublime_text_2 (= 1.1.2)

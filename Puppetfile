@@ -112,7 +112,7 @@ github "vlc",               "1.0.5"
 
 # tool
 github "dropbox",           "1.1.2"
-github "skype",             "1.0.9"
+github "skype",             "1.1.0"
 github "hipchat",           "1.1.3"
-github "onepassword",       "1.1.4"
+github "onepassword",       "1.1.5"
 github "appcleaner",        "1.0.0"
