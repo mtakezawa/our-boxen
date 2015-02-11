@@ -150,4 +150,13 @@ class people::mtakezawa {
     class { 'vmware_fusion':
         version => '7.0.0-2103067'
     }
+
+    # android
+    include android::sdk
+    #include android::ndk
+    include android::tools
+    include android::platform_tools
+    # @see https://developer.android.com/tools/revisions/build-tools.html
+    android::build_tools { '21.1.1': }
+    include android::21
 }
