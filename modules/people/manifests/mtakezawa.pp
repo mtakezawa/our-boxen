@@ -160,4 +160,7 @@ class people::mtakezawa {
     android::build_tools { '21.1.1': }
     include android::21
     include android::studio
+
+    # skitch
+    include skitch
 }
