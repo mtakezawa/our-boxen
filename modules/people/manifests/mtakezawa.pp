@@ -159,4 +159,5 @@ class people::mtakezawa {
     # @see https://developer.android.com/tools/revisions/build-tools.html
     android::build_tools { '21.1.1': }
     include android::21
+    include android::studio
 }
