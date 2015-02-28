@@ -123,6 +123,16 @@ class people::mtakezawa {
     #    provider => pkgdmg
     #}
 
+    package { 'DeltaWalker-2.1.1':
+        source => 'https://s3.amazonaws.com/deltawalker/DeltaWalker-2.1.1_64.dmg',
+        provider => appdmg
+    }
+
+    class { 'android::studio':
+        release => '1.0.1',
+        version => '1641136'
+    }
+    
     nodejs::module { 'titanium':
         node_version => 'v0.10'
     }
