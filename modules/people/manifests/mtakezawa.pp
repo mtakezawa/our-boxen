@@ -90,6 +90,8 @@ class people::mtakezawa {
             'tig',                        # git cui client
             'reattach-to-user-namespace', # use tmux to clipbord
             'packer',                     # vagrant box maker
+            'graphviz',                   # graphviz
+            'gts',                        # need for graphviz
             'libusb',                     # need for wine
             'libusb-compat',              # need for wine
             #'wine',                       # wine
@@ -128,25 +130,26 @@ class people::mtakezawa {
         provider => appdmg
     }
 
+
     class { 'android::studio':
         release => '1.0.1',
         version => '1641136'
     }
     
     nodejs::module { 'titanium':
-        node_version => 'v0.10'
+        node_version => 'v0.12'
     }
     nodejs::module { 'alloy':
-        node_version => 'v0.10'
+        node_version => 'v0.12'
     }
     nodejs::module { 'less':
-        node_version => 'v0.10'
+        node_version => 'v0.12'
     }
     nodejs::module { 'grunt-cli':
-        node_version => 'v0.10'
+        node_version => 'v0.12'
     }
     nodejs::module { 'bower':
-        node_version => 'v0.10'
+        node_version => 'v0.12'
     }
 
     # intellij
