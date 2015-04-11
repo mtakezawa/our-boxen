@@ -176,4 +176,8 @@ class people::mtakezawa {
 
     # skitch
     include skitch
+
+    # mysql-workbench
+    include mysql_workbench
+
 }

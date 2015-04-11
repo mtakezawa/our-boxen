@@ -120,3 +120,6 @@ github "appcleaner",        "1.0.0"
 github "android",           "1.4.0"
 github "skitch",            "1.0.3"
 github "graphviz",          "1.0.0"
+
+# 
+github "mysql_workbench",   "1.0.0", :repo => "cdburgess/puppet-mysql_workbench"
