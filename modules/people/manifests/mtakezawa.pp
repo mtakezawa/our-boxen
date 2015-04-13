@@ -137,10 +137,10 @@ class people::mtakezawa {
     }
     
     nodejs::module { 'titanium':
-        node_version => 'v0.12'
+        node_version => 'v0.10.38'
     }
     nodejs::module { 'alloy':
-        node_version => 'v0.12'
+        node_version => 'v0.10.38'
     }
     nodejs::module { 'less':
         node_version => 'v0.12'
@@ -166,12 +166,13 @@ class people::mtakezawa {
 
     # android
     include android::sdk
-    #include android::ndk
+    include android::ndk
     include android::tools
     include android::platform_tools
     # @see https://developer.android.com/tools/revisions/build-tools.html
-    android::build_tools { '21.1.1': }
-    include android::21
+    #android::build_tools { '21.1.1': }
+    android::build_tools { '20.0.0': }
+    include android::16
     include android::studio
 
     # skitch

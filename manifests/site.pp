@@ -66,7 +66,7 @@ node default {
   # node versions
   #nodejs::version { 'v0.10': }
   #nodejs::version { 'v0.12': }
-  nodejs::version { 'v0.10': }
+  nodejs::version { 'v0.10.38': }
   class { 'nodejs::global':
     version => 'v0.12'
   }
