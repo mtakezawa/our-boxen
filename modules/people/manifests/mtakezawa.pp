@@ -130,6 +130,10 @@ class people::mtakezawa {
         provider => appdmg
     }
 
+    package { 'perfoce-r14.3':
+        source => 'http://cdist2.perforce.com/perforce/r14.3/bin.macosx107x86_64/P4V.dmg',
+        provider => appdmg
+    }
 
     class { 'android::studio':
         release => '1.0.1',
