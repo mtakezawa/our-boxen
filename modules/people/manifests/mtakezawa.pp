@@ -135,6 +135,11 @@ class people::mtakezawa {
         provider => appdmg
     }
 
+    package { 'onedrive-for-business-client-preview':
+        source => 'http://download.microsoft.com/download/D/9/8/D98389DB-5946-412C-A0A6-44808C19F99C/OneDriveForBusinessMacPreview.dmg',
+        provider => pkgdmg
+    }
+
     class { 'android::studio':
         release => '1.0.1',
         version => '1641136'
