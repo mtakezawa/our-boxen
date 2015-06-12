@@ -145,10 +145,10 @@ class people::mtakezawa {
         version => '1641136'
     }
     
-    nodejs::module { 'titanium':
+    nodejs::module { 'titanium@4.0.1':
         node_version => 'v0.10.38'
     }
-    nodejs::module { 'alloy':
+    nodejs::module { 'alloy@1.6.0':
         node_version => 'v0.10.38'
     }
     nodejs::module { 'less':
