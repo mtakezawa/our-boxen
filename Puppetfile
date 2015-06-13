@@ -96,6 +96,7 @@ github "sequel_pro",        "1.0.1"
 github "sublime_text_2",    "1.1.2"
 github "macvim",            "1.0.0"
 github "intellij",          "1.5.1"
+github "atom",              "1.2.0"
 
 # vcs
 github "sourcetree",        "1.0.0"

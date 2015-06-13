@@ -77,6 +77,28 @@ class people::mtakezawa {
     include iterm2::colors::solarized_light
     include iterm2::colors::solarized_dark
 
+
+    # need directory `/usr/local/bin`.
+    # https://github.com/caskroom/homebrew-cask/issues/4716
+    # ```
+    # $ sudo mkdir -p /usr/local/bin
+    # $ sudo chown takezawa:staff /usr/local/bin
+    # $ chmod u+rwx /usr/local/bin
+    # ```
+    include atom
+    atom::package { 'linter': }
+    atom::package { 'japanese-wrap': }
+    atom::package { 'autocomplete-plus': }
+    atom::package { 'script': }
+    atom::package { 'git-log': }
+    atom::package { 'git-plus': }
+    atom::package { 'term2': }
+    atom::package { 'vim-mode': }
+    atom::package { 'ex-mode': }
+    atom::package { 'tree-view': }
+    atom::theme { 'monokai': }
+    atom::theme { 'seti-ui': }
+
     ## via homebrew
     #
     homebrew::tap { 'homebrew/binary': }
@@ -145,11 +167,13 @@ class people::mtakezawa {
         version => '1641136'
     }
     
-    nodejs::module { 'titanium@4.0.1':
-        node_version => 'v0.10.38'
+    #nodejs::module { 'titanium@4.0.1':
+    nodejs::module { 'titanium':
+        node_version => 'v0.12.4'
     }
-    nodejs::module { 'alloy@1.6.0':
-        node_version => 'v0.10.38'
+    #nodejs::module { 'alloy@1.6.0':
+    nodejs::module { 'alloy':
+        node_version => 'v0.12.4'
     }
     nodejs::module { 'less':
         node_version => 'v0.12'
