@@ -57,13 +57,16 @@ class people::mtakezawa {
     include libpng
     include redis
     include mysql
-    include php::5_4_18
-    include php::fpm::5_4_18
-    #include php::5_3_28
-    #include php::fpm::5_3_28
+    include php::5_5_13
+    include php::fpm::5_5_13
+    include php::5_4_29
+    include php::fpm::5_4_29
+    include php::5_3_28
+    include php::fpm::5_3_28
     class { 'php::global':
-      version => '5.4.18'
+      version => '5.5.13'
     }
+    include php::composer
     include hipchat
     include docker
     include fig
@@ -137,8 +140,8 @@ class people::mtakezawa {
         provider => pkgdmg
     }
 
-    package { 'ownCloud1.7.1':
-        source => 'https://download.owncloud.com/desktop/stable/ownCloud-1.7.1.1655.pkg',
+    package { 'ownCloud1.8.1':
+        source => 'https://download.owncloud.com/desktop/stable/ownCloud-1.8.1.2335.pkg',
         provider => pkgdmg
     }
 
