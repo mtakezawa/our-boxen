@@ -99,6 +99,7 @@ class people::mtakezawa {
     atom::package { 'vim-mode': }
     atom::package { 'ex-mode': }
     atom::package { 'tree-view': }
+    atom::package { 'minimap': }
     atom::theme { 'monokai': }
     atom::theme { 'seti-ui': }
 
