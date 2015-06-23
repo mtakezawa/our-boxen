@@ -156,11 +156,6 @@ class people::mtakezawa {
         provider => appdmg
     }
 
-    package { 'perfoce-r14.3':
-        source => 'http://cdist2.perforce.com/perforce/r14.3/bin.macosx107x86_64/P4V.dmg',
-        provider => appdmg
-    }
-
     package { 'onedrive-for-business-client-preview':
         source => 'http://download.microsoft.com/download/D/9/8/D98389DB-5946-412C-A0A6-44808C19F99C/OneDriveForBusinessMacPreview.dmg',
         provider => pkgdmg
