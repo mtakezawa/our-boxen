@@ -173,13 +173,13 @@ class people::mtakezawa {
         node_version => 'v0.12.4'
     }
     nodejs::module { 'less':
-        node_version => 'v0.12'
+        node_version => 'v0.12.4'
     }
     nodejs::module { 'grunt-cli':
-        node_version => 'v0.12'
+        node_version => 'v0.12.4'
     }
     nodejs::module { 'bower':
-        node_version => 'v0.12'
+        node_version => 'v0.12.4'
     }
 
     # intellij
