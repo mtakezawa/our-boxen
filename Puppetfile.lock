@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.5)
+    nginx (1.4.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -332,7 +332,7 @@ DEPENDENCIES
   module_data (= 0.0.3)
   mysql (= 1.2.0)
   mysql_workbench (= 1.0.0)
-  nginx (= 1.4.5)
+  nginx (= 1.4.6)
   nodejs (= 4.0.1)
   onepassword (= 1.1.5)
   openssl (= 1.0.0)
