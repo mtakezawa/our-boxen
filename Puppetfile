@@ -87,7 +87,7 @@ github "libpng",            "1.0.0"
 github "autoconf",          "1.0.0"
 
 # database
-github "mysql",             "1.2.0"
+github "mysql",             "2.0.1"
 github "redis",             "3.1.0"
 github "pgadmin3",          "1.0.0"
 github "sequel_pro",        "1.0.1"
