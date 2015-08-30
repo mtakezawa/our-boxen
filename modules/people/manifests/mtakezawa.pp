@@ -167,20 +167,36 @@ class people::mtakezawa {
         version => '1641136'
     }
     
-    nodejs::module { 'titanium':
-        node_version => 'v0.12.4'
+    $version = '0.12.4'
+    npm_module { "titanium for ${version}":
+        module  => 'titanium',
+        #version      => '~> 1.4.1',
+        node_version => $version,
     }
-    nodejs::module { 'alloy':
-        node_version => 'v0.12.4'
+    npm_module { "alloy for ${version}":
+        module  => 'alloy',
+        #version      => '~> 1.4.1',
+        node_version => $version,
     }
-    nodejs::module { 'less':
-        node_version => 'v0.12.4'
+    npm_module { "less for ${version}":
+        module  => 'less',
+        #version      => '~> 1.4.1',
+        node_version => $version,
     }
-    nodejs::module { 'grunt-cli':
-        node_version => 'v0.12.4'
+    npm_module { "grunt-cli for ${version}":
+        module  => 'grunt-cli',
+        #version      => '~> 1.4.1',
+        node_version => $version,
     }
-    nodejs::module { 'bower':
-        node_version => 'v0.12.4'
+    npm_module { "bower for ${version}":
+        module  => 'bower',
+        #version      => '~> 1.4.1',
+        node_version => $version,
+    }
+    # Installing nodenv plugin
+    nodejs::nodenv::plugin { 'nodenv-vars':
+        ensure => 'ee42cd9db3f3fca2a77862ae05a410947c33ba09',
+        source  => 'OiNutter/nodenv-vars'
     }
 
     # intellij

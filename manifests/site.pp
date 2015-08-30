@@ -64,11 +64,10 @@ node default {
   }
 
   # node versions
-  #nodejs::version { 'v0.10': }
-  nodejs::version { 'v0.12.4': }
-  nodejs::version { 'v0.10.38': }
+  nodejs::version { '0.10': }
+  nodejs::version { '0.12.4': }
   class { 'nodejs::global':
-    version => 'v0.12.4'
+    version => '0.12.4'
   }
 
   # default ruby versions
