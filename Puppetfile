@@ -88,6 +88,7 @@ github "autoconf",          "1.0.0"
 
 # database
 github "mysql",             "2.0.1"
+github "elasticsearch",     "2.8.0"
 github "redis",             "3.1.0"
 github "pgadmin3",          "1.0.0"
 github "sequel_pro",        "1.0.1"
