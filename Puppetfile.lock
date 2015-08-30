@@ -21,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.10.4)
+    boxen (3.11.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-brewcask
@@ -301,14 +301,14 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: ripienaar/puppet-module-data
   specs:
-    module_data (0.0.3)
+    module_data (0.0.4)
 
 DEPENDENCIES
   android (= 1.4.0)
   appcleaner (= 1.0.0)
   atom (= 1.2.0)
   autoconf (= 1.0.0)
-  boxen (= 3.10.4)
+  boxen (= 3.11.0)
   brewcask (= 0.0.6)
   chrome (= 1.1.2)
   dnsmasq (= 2.0.1)
@@ -335,7 +335,7 @@ DEPENDENCIES
   libtool (= 1.0.0)
   macvim (= 1.0.0)
   minecraft (= 1.0.2)
-  module_data (= 0.0.3)
+  module_data (= 0.0.4)
   mysql (= 2.0.1)
   mysql_workbench (= 1.0.0)
   nginx (= 1.4.6)
