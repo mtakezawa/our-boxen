@@ -111,7 +111,8 @@ class people::mtakezawa {
             'readline',                   # use for ruby compile
             'coreutils',                  # change mac command to like GNU Linux
             'tree',                       # linux tree cmd
-            'ant',                        # 
+            'ant',                        # ant
+            'ant-contrib',                # AntContrib
             'ctags',                      # vim compel
             'tmux',                       # terminal session
             'tig',                        # git cui client
