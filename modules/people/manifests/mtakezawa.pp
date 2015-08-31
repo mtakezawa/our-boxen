@@ -123,7 +123,8 @@ class people::mtakezawa {
             'libusb',                     # need for wine
             'libusb-compat',              # need for wine
             #'wine',                       # wine
-            'elasticsearch'               # elasticksearch
+            'elasticsearch',              # elasticksearch
+            're2c'                        # need for php
         ]:
     }
 
