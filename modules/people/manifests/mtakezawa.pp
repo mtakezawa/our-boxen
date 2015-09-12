@@ -164,6 +164,11 @@ class people::mtakezawa {
         provider => pkgdmg
     }
 
+    package { 'KindleForMac-40961':
+        source => 'http://kindleformac.amazon.com/40961/KindleForMac.dmg',
+        provider => appdmg
+    }
+
     class { 'android::studio':
         release => '1.0.1',
         version => '1641136'
