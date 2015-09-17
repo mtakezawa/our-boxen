@@ -169,6 +169,11 @@ class people::mtakezawa {
         provider => appdmg
     }
 
+    package { 'owaspzaproxy-2.4.2':
+        source => 'https://github.com/zaproxy/zaproxy/releases/download/2.4.2/ZAP_2.4.2_Mac_OS_X.dmg',
+        provider => appdmg
+    }
+
     class { 'android::studio':
         release => '1.0.1',
         version => '1641136'
