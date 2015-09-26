@@ -124,7 +124,9 @@ class people::mtakezawa {
             'libusb-compat',              # need for wine
             #'wine',                       # wine
             'elasticsearch',              # elasticksearch
-            're2c'                        # need for php
+            're2c',                       # need for php
+            'maven',                      # maven
+            'phantomjs192'                # phantomjs
         ]:
     }
 
@@ -204,7 +206,7 @@ class people::mtakezawa {
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '14.1.4'
+        version => '14.1.5'
     }
 
     #include vmware_fusion
