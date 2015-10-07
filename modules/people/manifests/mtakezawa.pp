@@ -88,20 +88,20 @@ class people::mtakezawa {
     # $ sudo chown takezawa:staff /usr/local/bin
     # $ chmod u+rwx /usr/local/bin
     # ```
-    include atom
-    atom::package { 'linter': }
-    atom::package { 'japanese-wrap': }
-    atom::package { 'autocomplete-plus': }
-    atom::package { 'script': }
-    atom::package { 'git-log': }
-    atom::package { 'git-plus': }
-    atom::package { 'term2': }
-    atom::package { 'vim-mode': }
-    atom::package { 'ex-mode': }
-    atom::package { 'tree-view': }
-    atom::package { 'minimap': }
-    atom::theme { 'monokai': }
-    atom::theme { 'seti-ui': }
+    #include atom
+    #atom::package { 'linter': }
+    #atom::package { 'japanese-wrap': }
+    #atom::package { 'autocomplete-plus': }
+    #atom::package { 'script': }
+    #atom::package { 'git-log': }
+    #atom::package { 'git-plus': }
+    #atom::package { 'term2': }
+    #atom::package { 'vim-mode': }
+    #atom::package { 'ex-mode': }
+    #atom::package { 'tree-view': }
+    #atom::package { 'minimap': }
+    #atom::theme { 'monokai': }
+    #atom::theme { 'seti-ui': }
 
     ## via homebrew
     #
@@ -126,6 +126,7 @@ class people::mtakezawa {
             'elasticsearch',              # elasticksearch
             're2c',                       # need for php
             'maven',                      # maven
+            'gradle',                     # gradle
             'phantomjs192'                # phantomjs
         ]:
     }
