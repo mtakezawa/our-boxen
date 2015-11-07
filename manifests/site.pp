@@ -71,8 +71,8 @@ node default {
   }
 
   # default ruby versions
-  ruby::version { '2.1.2': }
-  ruby::version { '2.2.2': }
+  ruby::version { '2.1.7': }
+  ruby::version { '2.2.3': }
   class { 'ruby::global':
     version => '2.2.2'
   }

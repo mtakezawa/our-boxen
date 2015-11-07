@@ -156,7 +156,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.6)
+    nginx (1.6.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -221,7 +221,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (8.5.2)
+    ruby (8.5.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-sequel_pro
@@ -338,7 +338,7 @@ DEPENDENCIES
   module_data (= 0.0.4)
   mysql (= 2.0.1)
   mysql_workbench (= 1.0.0)
-  nginx (= 1.4.6)
+  nginx (= 1.6.0)
   nodejs (= 5.0.2)
   onepassword (= 1.1.5)
   openssl (= 1.0.0)
@@ -351,7 +351,7 @@ DEPENDENCIES
   python (= 2.0.0)
   redis (= 3.1.0)
   repository (= 2.4.1)
-  ruby (= 8.5.2)
+  ruby (= 8.5.3)
   sequel_pro (= 1.0.1)
   skitch (= 1.0.3)
   skype (= 1.1.0)
