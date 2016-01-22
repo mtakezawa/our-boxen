@@ -69,7 +69,7 @@ github "firefox",           "1.1.7"
 github "chrome",            "1.1.2"
 
 # virtual machine
-github "vagrant",           "3.0.0"
+github "vagrant",           "3.3.4"
 github "virtualbox",        "1.0.13"
 github "vmware_fusion",     "1.2.0"
 github "docker",            "0.6.0"
@@ -104,7 +104,7 @@ github "sourcetree",        "1.0.0"
 
 # language
 github "java",              "1.7.1"
-github "python",            "2.0.0"
+github "python",            "2.0.1"
 github "php",               "1.2.4"
 
 # game
