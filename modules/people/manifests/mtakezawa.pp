@@ -217,7 +217,7 @@ class people::mtakezawa {
     # intellij
     class { 'intellij':
         edition => 'ultimate',
-        version => '15.0.4-custom-jdk-bundled'
+        version => '2016.1'
     }
 
     #include vmware_fusion
