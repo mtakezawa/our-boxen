@@ -157,8 +157,8 @@ class people::mtakezawa {
     #    provider => pkgdmg
     #}
 
-    package { 'DeltaWalker-2.1.1':
-        source => 'https://s3.amazonaws.com/deltawalker/DeltaWalker-2.1.1_64.dmg',
+    package { 'DeltaWalker-2.3.0':
+        source => 'https://s3.amazonaws.com/deltawalker/DeltaWalker-2.3.0_64.dmg',
         provider => appdmg
     }
 
